@@ -1,0 +1,358 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Myriad Pro, sans-serif;
+}
+.container {
+    width: 1920px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+a, a:visited {
+    text-decoration: none;
+}
+
+.present-title {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 60px;
+    font-weight: 100;
+    padding: 101px 50px 0 50px;
+}
+
+
+/* button */
+
+.btn {
+    display: inline-block;
+    padding: 20px;
+    font-size: 18px;
+    vertical-align: top;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    background: none;
+    color: #ffffff;
+    cursor: pointer;
+    outline: none;
+    border: none;
+}
+
+.btn-green {
+    padding: 13px 30px;
+    color: #8fc74a;
+    border: 1px solid #8fc74a;
+    border-radius: 30px;
+}
+.btn-green:hover {
+    background: #8fc74a;
+    color: white;
+}
+
+.btn-white {
+    padding: 10px 5px;
+    border: 1px solid #ffffff;
+    border-radius: 30px;
+    font-size: 38px;
+    color: white;
+}
+.btn-white:hover {
+    background: white;
+    color: #8fc74a;
+}
+
+.btn-white-aboutUs {
+    padding: 15px 30px;
+    border: 1px solid #ffffff;
+    border-radius: 30px;
+    font-size: 20px;
+    color: white;
+}
+.btn-white-aboutUs:hover {
+    background: white;
+    color: #8fc74a;
+}
+
+
+/***** main-menu *****/
+
+.main-menu {
+    text-align: center;
+}
+    .main-menu ul {
+        list-style: none;
+    }
+        .main-menu li{
+            display: inline-block;
+            padding: 50px 20px;
+        }
+            .main-menu a {
+                text-transform: uppercase;
+                color: #9ba7b4;
+            }
+            .main-menu a:hover {
+                text-decoration: underline;
+                color: #0e335b;
+            }
+            .main-menu a:active {
+                text-decoration: none;
+                opacity: 0.3;
+            }
+
+/***** info *****/
+
+.info {
+    text-align: center;
+}
+    .column {
+        display: inline-block;
+        vertical-align: top;
+        padding: 90px 130px;
+    }
+    .phone {
+        color: #8fc74a;
+        font-size: 28px;
+    }
+    .logo {
+        letter-spacing: 10px;
+        color: #595959;
+
+    }
+        .logo p {
+            margin-top: 15px;
+        }
+    .question {
+        color: #595959;
+
+    }
+
+
+/***** slider *****/
+
+.images {
+    text-align: center;
+    height: 660px;
+}
+    .img {
+        padding: 0 40px;
+    }
+.text {
+    position: relative;
+    top: -220px;
+}
+    .text p {
+        font-size: 60px;
+        color: #ffffff;
+        margin-bottom: 35px;
+    }
+
+.shadowImages {
+    position: relative;
+    top: -140px;
+}
+.arrowsImages {
+    position: relative;
+    top: -160px;
+    padding: 10px;
+    font-size: 48px;
+}
+.arrows {
+    padding: 20px;
+}
+.arrows:hover {
+    color: #8fc74a;
+}
+
+
+/***** presentation *****/
+
+.presentation {
+    text-align: center;
+    margin-bottom: 140px;
+}
+    .houseCard {
+        display: inline-block;
+        padding: 90px 60px;
+    }
+        .houseCard img {
+            height: 162px;
+        }
+        .houseCard h3 {
+            text-transform: uppercase;
+            font-size: 40px;
+            font-weight: 100;
+            padding-top: 45px;
+            padding-bottom: 30px;
+        }
+        .houseCard p {
+            color: #595959;
+        }
+
+            
+            
+/***** aboutUs *****/
+
+.aboutUs {
+    text-align: center;
+    background: url("../img/aboutUs.jpg") no-repeat top center;
+    height: 575px;
+}
+    .aboutUsDisc {
+        border: 10px solid #ffffff;
+        width: 1073px;
+        height: 280px;
+        margin: 0 auto;
+        position: relative;
+        top: 80px;
+        padding: 60px;
+    }
+    .aboutUsDiscP {
+        padding: 80px;
+    }
+    .aboutUsDisc p span {
+        font-size: 50px;
+        color: #ffffff;
+        text-transform: uppercase;
+        vertical-align: top;
+    }
+    .aboutUsDisc a {
+        vertical-align: bottom;
+    }
+
+
+/***** news *****/
+
+.news {
+    text-align: center;
+    background-color: #e9edf0;
+}
+    .newsCard {
+        display: inline-block;
+        padding: 0 30px;
+    }
+    .dmyNews {
+        position: relative;
+        top: 90px;
+        left: 20px;
+        background: white;
+        width: 60px;
+        padding: 5px 0;
+        color: #595959;
+    }
+    .number {
+        font-size: 26px;
+    }
+    .triangle {
+        content: '';
+        position: relative;
+        right: -23px;
+        top: -150px;
+        width: 0;
+        border: 30px solid transparent;
+        border-bottom: 20px solid white;
+    }
+    .newsCardHover {
+        position: relative;
+        top: -150px;
+        background: white;
+        height: 100px;
+    }
+
+
+/***** gallery *****/
+
+.gallery {
+    text-align: center;
+}
+
+.galleryImages {
+    width: 1200px;
+    padding: 10px;
+    min-height: 640px;
+    margin: 20px auto;
+}
+.galleryImages1, .galleryImages2, .galleryImages3{
+    float:left;
+    width:95px;
+}
+
+.galleryImages1 {
+    width: 600px;
+    height: 580px;
+}
+
+.galleryImages1 img {
+    width: 600px;
+    height: 580px;
+}
+.galleryImages2,
+.galleryImages3 {
+    width: 590px;
+    height: 285px;
+    margin-bottom: 10px;
+    margin-left:10px;
+}
+.galleryImages3 {
+    margin-bottom: 0;
+}
+.dmyGallery {
+    position: relative;
+    top: 90px;
+    left: -200px;
+    background: none;
+    display:inline-block;
+    padding: 5px 0;
+    color: white;
+}
+.date {
+    font-size: 40px;
+}
+.month,
+.year {
+    font-size: 18px;
+}
+
+
+
+/***** footer *****/
+
+.footer {
+    height: 160px;
+    background-color: #e9edf0;
+}
+    .footer-wrapper {
+        width: 1200px;
+        padding: 10px;
+        margin: 0 auto;
+        min-height: 120px;
+    }
+    .social {
+        float: left;
+    }
+
+    .social li{
+        display: inline-block;
+        padding: 50px 0;
+        padding-right: 20px;
+    }
+    .social img {
+        padding: 10px 10px;
+        border-radius: 50%;
+        border: 1px solid #868e91;
+    }
+    .social a {
+        text-transform: uppercase;
+    }
+    .years {
+        float: right;
+        padding: 66px 0;
+        color: #868e91;
+        font-size: 18px;
+    }
+
+
+
+
+
