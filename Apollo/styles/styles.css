@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ﻿@font-face {
     font-family: "LMRomanSlant10-Regular";
     src: url("../fonts/lmromanslant10-regular.eot?")
@@ -395,4 +396,403 @@ body {
 
 .form-thank-you {
     visibility: hidden;
+=======
+﻿@font-face {
+    font-family: "LMRomanSlant10-Regular";
+    src: url("../fonts/lmromanslant10-regular.eot?")
+    format("eot"),url("../fonts/lmromanslant10-regular.woff")
+    format("woff"),url("../fonts/lmromanslant10-regular.ttf")
+    format("truetype"),url("../fonts/lmromanslant10-regular.svg#LMRomanSlant10-Regular")
+    format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 1500px;
+    margin: 0 auto;
+    height: 750px;
+}
+
+/* margin for blocks */
+
+.header,
+.myName,
+.slider,
+.utEnim,
+.carousel,
+.sayHello {
+    margin: 25px 0;
+}
+
+/* text */
+
+.header-text h2,
+.utEnim-text h2,
+.myName-text h2,
+.sayHello-text h2 {
+    font-size: 50px;
+    font-weight: 100;
+}
+
+.header-text h2 span,
+.utEnim-text h2 span,
+.myName-text h2 span,
+.sayHello-text h2 span {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.header-text p,
+.utEnim-text p,
+.myName-text p,
+.sayHello-text p {
+    font: italic 18px "LMRomanSlant10-Regular";
+    margin: 20px 0;
+}
+
+/* arrow */
+
+.arrowLeft,
+.arrowRight {
+    display: block;
+    position: relative;
+    width: 75px;
+    height: 75px;
+    z-index: 1000;
+}
+.arrowRight {
+    background: url("../img/arrowRight.png") no-repeat center center white;
+    top: 260px;
+    left: 1375px;
+}
+.arrowLeft {
+    background: url("../img/arrowLeft.png") no-repeat center center white;
+    top: 335px;
+    left: 50px;
+}
+.arrowRight:hover,
+.arrowLeft:hover{
+    background-color: #bdc3c7;
+}
+
+/* button */
+
+.btn {
+    display: inline-block;
+    padding: 20px;
+    font-size: 18px;
+    vertical-align: top;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    background: black;
+    color: #ffffff;
+    cursor: pointer;
+    outline: none;
+    border: none;
+}
+
+.btn-black {
+    width: 580px;
+    padding: 13px 30px;
+    border: 1px solid black;
+    border-radius: 30px;
+}
+
+.btn-black:hover {
+    background: white;
+    color: black;
+}
+
+/* header */
+
+.header {
+    background: url("../img/header.jpg") no-repeat top center;
+}
+
+.header-text {
+    position: relative;
+    top: 235px;
+    left: 175px;
+    width: 505px;
+}
+
+/* menu */
+
+/* Dropdown Button */
+
+.dropbtn {
+    background: #efefef;
+    color: black;
+    padding: 2px;
+    text-transform: uppercase;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+}
+
+/* The container <div> - needed to position the dropdown content */
+
+.dropdown {
+    position: relative;
+    top: 40px;
+    left: 1339px;
+    display: inline-block;
+    padding: 10px;
+}
+
+.dropdown:hover {
+    background: #f9f9f9;
+}
+
+/* Dropdown Content (Hidden by Default) */
+
+.dropdown-content {
+    background: #f9f9f9;
+    display: none;
+    position: absolute;
+    top: 46px;
+    left: -53px;
+    min-width: 160px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+
+.dropdown-content a:hover {
+    background: #f1f1f1;
+}
+
+/* Show the dropdown menu on hover */
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+
+.dropdown:hover .dropbtn {
+    background: #f9f9f9;
+}
+
+.menu-item {
+    float: right;
+    margin-left: 10px;
+}
+
+.line-item {
+    width: 20px;
+    padding-top: 5px;
+    border-bottom: 1px solid black;
+}
+
+/* myName */
+
+.myName {
+    background: url("../img/myName.jpg") no-repeat top center;
+}
+
+.myName-text {
+    position: relative;
+    top: 175px;
+    left: 685px;
+    max-width: 610px;
+}
+
+.myName-text h2 {
+    text-align: right;
+    padding-right: 60px;
+}
+
+.myName-text h2::before {
+    content: "";
+    position: absolute;
+    top: 31px;
+    left: 0;
+    width: 80px;
+    border-bottom: 2px solid black;
+}
+
+.social {
+    background: #bdc3c7;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin-top: 50px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.social:hover {
+    background: black;
+}
+
+.social-fb {
+    background: url("../img/facebook.png") no-repeat center center;
+}
+
+.social-in {
+    background: url("../img/instagram.png") no-repeat center center;
+}
+
+.social-tw {
+    background: url("../img/twitter.png") no-repeat center center;
+}
+
+.social-pr {
+    background: url("../img/printerest.png") no-repeat center center;
+}
+
+/* slider */
+
+.slider {
+    background: url("../img/sliders.jpg") no-repeat top center;
+}
+
+/* utEnim */
+
+.utEnim {
+    background: url("../img/utEnim.jpg") no-repeat top center;
+}
+
+.utEnim-text {
+    position: relative;
+    top: 210px;
+    left: 180px;
+    max-width: 430px;
+}
+
+.utEnimImages {
+    position: relative;
+    top: -85px;
+    left: 700px;
+}
+
+/* carousel */
+
+.carousel {
+    background: url("../img/carousel.jpg") no-repeat top center;
+}
+
+.mainCarousel {
+    position: relative;
+    top: 0;
+    left: -130px;
+    z-index: 1000;
+}
+
+.leftCarousel {
+    position: relative;
+    top: -50px;
+    left: 85px;
+}
+
+.rightCarousel {
+    position: relative;
+    top: -410px;
+    left: 880px;
+}
+
+/* sayHello */
+
+.sayHello {
+    background: url("../img/sayHello.jpg") no-repeat top center;
+}
+
+.sayHello-text {
+    text-align: center;
+    padding-top: 100px;
+}
+
+.contacts-form {
+    width: 590px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+.contacts-form td {
+    padding-bottom: 16px;
+}
+
+.contacts-form .title {
+    width: 90px;
+    padding-right: 20px;
+    vertical-align: top;
+    text-align: right;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 54px;
+}
+
+.contacts-form .field {
+    width: 280px;
+}
+
+.contacts-form input[type="text"],
+.contacts-form textarea {
+    font: 400 18px/24px Arial, sans-serif;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 13px 23px;
+    outline: none;
+    border: 2px solid black;
+    border-radius: 2px;
+}
+
+.contacts-form input[type="text"]:hover,
+.contacts-form textarea:hover {
+    border: 2px solid #7f7f7f;
+}
+
+.contacts-form input[type="text"]:focus,
+.contacts-form textarea:focus {
+    border: 2px solid #00b770;
+}
+
+.contacts-form textarea {
+    width: 590px;
+    margin: 30px 0;
+    min-height: 130px;
+    resize: none;
+}
+
+.contacts-form .btn {
+    width: 590px;
+    border-radius: 3px;
+}
+
+.name,
+.email {
+    width: 280px;
+}
+
+.email {
+    float: left;
+    margin-right: 30px;
+}
+
+.form-thank-you {
+    visibility: hidden;
+>>>>>>> origin/master
 }
