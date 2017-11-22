@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>audio</title>
+
+    <style>
+        hr {
+            height: 2px;
+            background: dodgerblue;
+        }
+        .active {
+            color: blue !important;
+        }
+        .wrapper {
+            width: 780px;
+            background-color: #D1CCC8;
+            border: 10px solid grey;
+            margin: 0 auto;
+            color: blue;
+        }
+            .container {
+                width: 100%;
+            }
+                .menu-top {
+                    width: 100%;
+                    margin: 0;
+                    background-color: grey;
+                }
+                    .menu-top ul li>a {
+                        display: block;
+                    }
+                    .menu-top ul {
+                        margin: 0;
+                        padding: 0;
+                    }
+                        .menu-top li {
+                            display: inline-block;
+                            background-color: #D1CCC8;
+                            margin: 0 10px 10px 0;
+                        }
+                        .menu-top li:hover {
+                            background-color: dodgerblue;
+                        }
+                        .menu-top li:last-child {
+                            margin-right: 0;
+                        }
+                        .menu-top li a {
+                            padding: 5px 45px;
+                            text-decoration: none;
+                            color: dodgerblue;
+                        }
+                            .menu-top a:hover {
+                                color: white;
+                            }
+
+        .wrapper-main-content {
+            margin: 10px;
+            height: 440px;
+        }
+            .title-content h1 {
+                color: red;
+            }
+            .title-content p {
+                color: dodgerblue;
+                margin-bottom: 1px;
+            }
+        .main-content {
+            width: 570px;
+            height: 370px;
+            background-color: #D1CCC8;
+        }
+                .main-content p {
+                    color: dodgerblue;
+                    margin-bottom: 1px;
+                }
+        .images-content {
+            display: inline-flex;
+            margin-bottom: 10px;
+        }
+            .images-content p {
+                width: 200px;
+                margin: 0 10px;
+                padding: 8px 240px 7px 1px;
+                background-color: grey;
+            }
+    </style>
+</head>
+<body>
+<div class="wrapper">
+    <div class="container">
+        <div class="menu-top">
+            <ul>
+                <li><a href="indexCSS.html">О нас</a></li>
+                <li><a href="photographyCSS.html">Фотография</a></li>
+                <li><a class="active" href="audioCSS.html">Аудио</a></li>
+                <li><a href="videoCSS.html">Видео</a></li>
+                <li><a href="">Контакты</a></li>
+            </ul>
+        </div>
+        <div class="wrapper-main-content">
+            <div class="title-content">
+                <h1>Обработка звука</h1>
+                <p><i>04/22/2014</i></p>
+            </div>
+            <div class="main-content">
+                <div class="images-content">
+                    <audio controls>
+                        <source src="img/vorona.mp3" type="audio/mp3">
+                        <a href="img/vorona.mp3">Скачать name.mp3</a>
+                    </audio>
+                    <p>Обработка музыки</p>
+                </div>
+                <div class="images-content">
+                    <audio controls>
+                        <source src="img/vorona.mp3" type="audio/mp3">
+                        <a href="img/vorona.mp3">Скачать name.mp3</a>
+                    </audio>
+                    <p>Обработка музыки</p>
+                </div>
+                <div class="images-content">
+                    <audio controls>
+                        <source src="img/vorona.mp3" type="audio/mp3">
+                        <a href="img/vorona.mp3">Скачать name.mp3</a>
+                    </audio>
+                    <p>Обработка музыки</p>
+                </div>
+                <div class="images-content">
+                    <audio controls>
+                        <source src="img/vorona.mp3" type="audio/mp3">
+                        <a href="img/vorona.mp3">Скачать name.mp3</a>
+                    </audio>
+                    <p>Обработка музыки</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .search {
+            float: right;
+            display: inline-flex;
+            margin-bottom: 10px;
+        }
+        .search p {
+            padding: 3px;
+            padding-right: 10px;
+            margin:0;
+        }
+        .sex-wrapper {
+            display: inline-flex;
+        }
+        .sex-block-top div {
+            margin: 5px;
+        }
+        .sex-block div {
+            margin: 10px;
+            margin-right: 10px;
+        }
+        p {
+            margin: 0;
+        }
+        input[type="submit"],
+        input[type="reset"] {
+            color: dodgerblue;
+            border: 2px solid red;
+            border-radius: 5px;
+        }
+        input[type="file"] {
+            color: red;
+        }
+        ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+            color: red;
+        }
+        ::-moz-placeholder { /* Firefox 19+ */
+            color: red;
+        }
+        :-ms-input-placeholder { /* IE 10+ */
+            color: red;
+        }
+        :-moz-placeholder { /* Firefox 18- */
+            color: red;
+        }
+        .reg {
+            position: relative;
+            top: -20px;
+            background: lightgrey;
+            width: 165px;
+        }
+    </style>
+</head>
+<body bgcolor="#d3d3d3">
+<form style="color: dodgerblue;">
+    <table cellpadding="10" width="700" border="10" align="center" cellspacing="0">
+        <tr>
+            <td>
+                <div class="search">
+                    <p>Найти</p>
+                    <input type="text" id="myInput" onkeyup="myFunction()" placeholder="" title="Type in a name">
+                </div>
+                <table cellpadding="10" width="680" border="1" align="center" cellspacing="0">
+                    <tr>
+                        <td>
+                            <table cellpadding="5" width="660" border="0" align="center" cellspacing="5">
+                                <p class="reg">Регистрационная форма</p>
+                                <tr>
+                                    <td bgcolor="#c0c0c0" width="15%"><input type=text name=textnames id="textname" placeholder="Введите имя" size="25"></td>
+                                    <td bgcolor="#c0c0c0">Имя</td>
+                                </tr>
+                                <tr>
+                                    <td bgcolor="#c0c0c0"><input type=text name=pass placeholder="☺☺☺☺☺☺☺☺☺" id="pass" size="25"></td>
+                                    <td bgcolor="#c0c0c0">Пароль</td>
+                                </tr>
+                                <tr>
+                                    <td bgcolor="#c0c0c0"><input type=text name=email placeholder="***@**.**" id="email" size="25"></td>
+                                    <td bgcolor="#c0c0c0">E-mail</td>
+                                </tr>
+                                <tr>
+                                    <td bgcolor="#c0c0c0"><input type=text name=phone placeholder="+7(***)***-**-**" id="phone" size="25"></td>
+                                    <td bgcolor="#c0c0c0">Телефон</td>
+                                </tr>
+                                <tr>
+                                    <td bgcolor="#c0c0c0"><input type=text name=site placeholder="www.***.**" id="site" size="25"></td>
+                                    <td bgcolor="#c0c0c0">Адрес сайта</td>
+                                </tr>
+                                <tr>
+                                    <td bgcolor="#c0c0c0"><input type=text name=age placeholder="30" id="age" size="25"></td>
+                                    <td bgcolor="#c0c0c0">Сколько вам лет</td>
+                                </tr>
+                                <tr>
+                                    <td bgcolor="#c0c0c0">
+                                        <p>Укажите ваш пол</p>
+                                        <div class="sex-block-top">
+                                            <div>
+                                                <input type="radio" name="sex" value="male" size="10">Мужской
+                                            </div>
+                                            <div>
+                                                <input type="radio" name="sex" value="Female" size="10">Женский
+                                            </div>
+                                            <div>
+                                                <input type="radio" name="sex" value="It" size="10">Не указывать
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td bgcolor="#c0c0c0">
+                                        <div class="sex-wrapper">
+                                            <div class="sex-block">
+                                                <div>
+                                                    <input type="checkbox" name="" value="" size="10">Спорт
+                                                </div>
+                                                <div>
+                                                    <input type="checkbox" name="" value="" size="10">Чтение
+                                                </div>
+                                                <div>
+                                                    <input type="checkbox" name="" value="" size="10">Прогулки
+                                                </div>
+                                            </div>
+                                            <div class="sex-block">
+                                                <div>
+                                                    <input type="checkbox" name="" value="" size="10">Путешествия
+                                                </div>
+                                                <div>
+                                                    <input type="checkbox" name="" value="" size="10">Пикники
+                                                </div>
+                                                <div>
+                                                    <input type="checkbox" name="" value="" size="10">Клубы
+                                                </div>
+                                            </div>
+                                            <div class="sex-block">
+                                                <div>
+                                                    <input type="checkbox" name="" value="" size="10">Кино
+                                                </div>
+                                                <div>
+                                                    <input type="checkbox" name="" value="" size="10">Игры
+                                                </div>
+                                                <div>
+                                                    <input type="checkbox" name="" value="" size="10">Кулинария
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td bgcolor="#c0c0c0"><input type=text name=years placeholder="дд.мм.гггг" id="years" size="25"></td>
+                                    <td bgcolor="#c0c0c0">Укажите дату своего рождения</td>
+                                </tr>
+                                <tr>
+                                    <td bgcolor="#c0c0c0"><input type=file name=file id="file" size="25"></td>
+                                    <td bgcolor="#c0c0c0">Укажите файл аватара</td>
+                                </tr>
+                                <tr>
+                                    <td bgcolor="#c0c0c0"><input type=color name=file id="color" size="25"></td>
+                                    <td bgcolor="#c0c0c0">Укажите цвет вашего аккаунта</td>
+                                </tr>
+                                <tr>
+                                    <td bgcolor="#c0c0c0">
+                                        <textarea rows="10" cols="30" name="text"></textarea>
+                                    </td>
+                                    <td bgcolor="#c0c0c0" style="vertical-align: top">Укажите подпись для ваших сообщений</td>
+                                </tr>
+                                <tr>
+                                    <td bgcolor="#c0c0c0" colspan="2">
+                                        <input type=reset name=reset value="Зарегестрироваться" id="reset">
+                                        <input type=submit name=submit value="Обновить" id="submit">
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+</form>
+</body>
+</html>
