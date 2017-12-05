@@ -57,7 +57,7 @@ body {
 
 .main-menu li {
   display: inline-block;
-  margin-right: 45px;
+  margin-right: 42px;
   vertical-align: top;
   font-size: 18px;
   line-height: 24px;
@@ -172,7 +172,7 @@ body {
 .features-item {
     display: inline-block;
     width: 320px;
-    margin-right: 25px;
+    margin-right: 24px;
     text-align: center;
 }
 .features-item:last-child {
