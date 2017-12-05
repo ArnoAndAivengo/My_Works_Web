@@ -117,7 +117,7 @@ body {
   width: 446px;
 }
 
-.promo::after{
+.promo::after {
   content: "";
   position: absolute;
   top: -14px;
@@ -129,13 +129,14 @@ body {
   z-index: -1;
 }
 
-.promo-title,
-.page-title {
+.promo > .promo-title p{
   color: #ffffff;
   margin-bottom: 40px;
-  font-weight: 700;
-  font-size: 45px;
-  line-height: 50px;
+  font-weight: 300;
+  font-size: 44px;
+  line-height: 44px;
+  width: 410px;
+  letter-spacing: 1px;
 }
 
 .promo p {
@@ -429,4 +430,3 @@ table {
   text-decoration: none;
   opacity: 0.3;
 }
-
