@@ -44,7 +44,6 @@ body {
 
 .main-menu {
   float: right;
-  width: 680px;
   margin-top: 25px;
 }
 
@@ -168,12 +167,12 @@ body {
   content: "";
 }
 
-
 .features-item {
     display: inline-block;
     width: 320px;
     margin-right: 24px;
     text-align: center;
+    vertical-align: top;
 }
 .features-item:last-child {
     margin-right: 0;
